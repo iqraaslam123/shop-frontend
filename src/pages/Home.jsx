@@ -42,6 +42,12 @@ const Home = () => {
     return () => observer.disconnect();
   }, []);
 
+  const scrollToSlide = useCallback((idx) => {
+    const el = sliderRef.current;
+    if (!el || !el.children[idx]) return;
+    el.scrollTo({ left: el.children[idx].offsetLeft, behavior: 'smooth' });
+  }, []);
+
   const stopAutoSlide = useCallback(() => {
     if (autoTimer.current) { clearInterval(autoTimer.current); autoTimer.current = null; }
   }, []);
@@ -51,11 +57,11 @@ const Home = () => {
     autoTimer.current = setInterval(() => {
       setSlideIndex((prev) => {
         const next = (prev + 1) % features.length;
-        sliderRef.current?.children[next]?.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });
+        scrollToSlide(next);
         return next;
       });
     }, 3000);
-  }, []);
+  }, [scrollToSlide]);
 
   useEffect(() => {
     startAutoSlide();
@@ -65,7 +71,7 @@ const Home = () => {
   const goToSlide = (idx) => {
     stopAutoSlide();
     setSlideIndex(idx);
-    sliderRef.current?.children[idx]?.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });
+    scrollToSlide(idx);
     setTimeout(startAutoSlide, 5000);
   };
 
