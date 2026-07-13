@@ -37,12 +37,7 @@ cd your-repository-name
 npm install
 
 npm run dev
-```
-
-## 📸 Screenshot
-
-![Project UI](./screenshots/ui.png)
-
+``
 ## 👩‍💻 Author
 
 **Iqra Aslam**
