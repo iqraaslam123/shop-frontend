@@ -1,3 +1,3 @@
 ## 📸 Screenshot
 
-![Project UI](./screenshots/ui.png)
+![Project UI](./screenshot/ui.PNG)
