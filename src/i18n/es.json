@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "shop": "Tienda",
+    "deals": "Ofertas",
+    "cart": "Carrito",
+    "orders": "Pedidos",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "search": "Buscar productos...",
+    "language": "Idioma",
+    "categories": "Categorías",
+    "womensClothing": "Ropa de Mujer",
+    "makeup": "Maquillaje",
+    "jewelry": "Joyería",
+    "footwear": "Calzado"
+  },
+  "hero": {
+    "title": "Descubre Productos Premium",
+    "subtitle": "Compra las últimas tendencias con precios imbatibles y envío gratis en todos los pedidos",
+    "cta": "Comprar Ahora",
+    "learnMore": "Más Información"
+  },
+  "home": {
+    "featured": "Productos Destacados",
+    "deals": "Ofertas del Día",
+    "viewAll": "Ver Todo",
+    "sale": "OFERTA"
+  },
+  "product": {
+    "addToCart": "Añadir al Carrito",
+    "description": "Descripción",
+    "reviews": "Reseñas",
+    "inStock": "En Stock",
+    "outOfStock": "Sin Stock",
+    "category": "Categoría",
+    "related": "Productos Relacionados"
+  },
+  "cart": {
+    "title": "Carrito de Compras",
+    "empty": "Tu carrito está vacío",
+    "continueShopping": "Seguir Comprando",
+    "subtotal": "Subtotal",
+    "checkout": "Pagar",
+    "remove": "Eliminar",
+    "total": "Total"
+  },
+  "orders": {
+    "title": "Mis Pedidos",
+    "empty": "Sin pedidos aún",
+    "orderId": "ID del Pedido",
+    "status": "Estado",
+    "total": "Total",
+    "date": "Fecha",
+    "track": "Seguir Pedido",
+    "return": "Solicitar Devolución",
+    "giftCard": "Código de Tarjeta de Regalo"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "name": "Nombre Completo",
+    "noAccount": "¿No tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?"
+  },
+  "footer": {
+    "description": "Tu destino premium para productos de calidad a precios imbatibles.",
+    "quickLinks": "Enlaces Rápidos",
+    "customerService": "Servicio al Cliente",
+    "contactUs": "Contáctanos",
+    "returnPolicy": "Política de Devolución",
+    "faq": "Preguntas Frecuentes",
+    "rights": "Todos los derechos reservados."
+  },
+  "returnPolicy": {
+    "title": "Política de Devolución",
+    "content": "Ofrecemos 30 días de política de devolución para todos los artículos no utilizados en su embalaje original. Simplemente contacta a nuestro equipo de soporte para iniciar el proceso de devolución."
+  }
+}

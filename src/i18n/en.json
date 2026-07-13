@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "deals": "Today's Deals",
+    "cart": "Cart",
+    "orders": "Orders",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "search": "Search products...",
+    "language": "Language",
+    "categories": "Categories",
+    "womensClothing": "Women's Clothing",
+    "makeup": "Makeup",
+    "jewelry": "Jewelry",
+    "footwear": "Footwear"
+  },
+  "hero": {
+    "title": "Discover Premium Products",
+    "subtitle": "Shop the latest trends with unbeatable prices and free shipping on all orders",
+    "cta": "Shop Now",
+    "learnMore": "Learn More"
+  },
+  "home": {
+    "featured": "Featured Products",
+    "deals": "Today's Deals",
+    "viewAll": "View All",
+    "sale": "SALE"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "description": "Description",
+    "reviews": "Reviews",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "category": "Category",
+    "related": "Related Products"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "total": "Total"
+  },
+  "orders": {
+    "title": "My Orders",
+    "empty": "No orders yet",
+    "orderId": "Order ID",
+    "status": "Status",
+    "total": "Total",
+    "date": "Date",
+    "track": "Track Order",
+    "return": "Request Return",
+    "giftCard": "Gift Card Code"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "footer": {
+    "description": "Your premium destination for quality products at unbeatable prices.",
+    "quickLinks": "Quick Links",
+    "customerService": "Customer Service",
+    "contactUs": "Contact Us",
+    "returnPolicy": "Return Policy",
+    "faq": "FAQ",
+    "rights": "All rights reserved."
+  },
+  "returnPolicy": {
+    "title": "Return Policy",
+    "content": "We offer 30-day return policy for all unused items in original packaging. Simply contact our support team to initiate the return process."
+  }
+}
